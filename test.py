@@ -14,13 +14,14 @@ class User(object):
         self.followers_id.remove(followerid)
 
 class Photo(object):
-    
+
     def __init__(self):
-        pass
-    photoID=-1
-    url=''
-    userId=-1
-    CommentList=[]
+        CommentList=[];
+
+    photoID = -1
+    url = ''
+    userId = -1
+    CommentList = []
 
     def Add_Comments(self, commentId):
         CommentList.append(item)
